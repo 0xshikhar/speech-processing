@@ -1,7 +1,7 @@
 % Speech Processing with MFCC using Fourier Transform
 
 % Read the input speech signal from a WAV file
-filename = 'input_speech.wav';
+filename = 'input.wav';
 [x, Fs] = audioread(filename);
 
 % Pre-emphasis to emphasize the high-frequency components
